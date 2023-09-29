@@ -13,7 +13,7 @@
     <?php include 'Navbar.php';?>
     </div>    
     <div class="px-16">
-      <?php include 'Foods.php';?>
+      <?php include 'Forms.php';?>
     </div>
     <div class="mt-10">
       <?php include 'Footer.php';?>

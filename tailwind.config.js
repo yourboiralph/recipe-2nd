@@ -4,10 +4,33 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#a7cfe9'
+        primary: '#a7cfe9',
+        primaryclicked: '#74bae8'
       },
       fontFamily: {
         primary: ['"Nanum Pen Script"']
+      },
+      backgroundImage: theme => ({
+        'bg-rocks': "url(images/background-rocks.png)",
+      }),
+      screens: {
+        '2sm': '0px',
+        // => @media (min-width: 0px) {...}
+        
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
       }
     },
   },

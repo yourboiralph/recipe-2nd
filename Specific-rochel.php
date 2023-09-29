@@ -13,9 +13,9 @@
     <?php include 'Navbar.php';?>
     </div>    
     <div class="px-16">
-      <?php include 'Foods.php';?>
+      <?php include 'specific-foods/rochel.php';?>
     </div>
-    <div class="mt-10">
+    <div class="mt-10 bottom-0">
       <?php include 'Footer.php';?>
     </div>
 </body>
